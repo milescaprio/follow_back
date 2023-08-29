@@ -1,6 +1,8 @@
 import importlib
 
 x = input("1. Request from instagram\n2. Import json from file\n") 
+
+
 if x == "1":
     import auth
     followers = auth.cl.user_followers(auth.ID)
